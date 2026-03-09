@@ -1,0 +1,10 @@
+[package]
+name = "alice-erp"
+version = "1.0.0"
+edition = "2021"
+authors = ["Moroya Sakamoto"]
+license = "MIT"
+description = "ALICE Enterprise Resource Planning: inventory, BOM, MRP, production scheduling, cost accounting, purchase orders, work orders"
+
+[lib]
+crate-type = ["rlib"]
