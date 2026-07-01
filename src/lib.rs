@@ -5,6 +5,12 @@
 //!
 //! Inventory management, Bill of Materials, Material Requirements Planning,
 //! production scheduling, cost accounting, purchase orders, and work orders.
+//! v1.1 で `signed_inventory` module (Ed25519 署名 + hash chain 在庫 audit) を追加。
+
+pub mod signed_inventory;
+pub use signed_inventory::{
+    InventoryEventKind, InventoryRecord, InventoryTrail, SignedInventoryRecord,
+};
 
 use std::collections::HashMap;
 
