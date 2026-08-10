@@ -9,7 +9,6 @@
 )]
 
 use crate::bom::*;
-use crate::common::*;
 use crate::cost::*;
 use crate::errors::*;
 use crate::inventory::*;
@@ -17,9 +16,6 @@ use crate::mrp::*;
 use crate::purchase::*;
 use crate::scheduling::*;
 use crate::work_order::*;
-use std::collections::HashMap;
-
-use super::*;
 
 // === Inventory / SKU tests ===
 
