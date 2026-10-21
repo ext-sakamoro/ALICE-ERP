@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 # scripts/preflight.sh — local reproduction of the CI gates before `git push`.
 # Every command is the one CI runs. A step this file does not cover is a step
-# that can only fail remotely — when a workflow step is added, add it here in
-# the same commit. Run `--quick` before every push.
+# that can only fail remotely — when a workflow changes, regenerate this file
+# in the same commit (checks no workflow runs go in scripts/preflight.local.sh).
+# Run `--quick` before every push.
 #
 # usage: scripts/preflight.sh [--quick]   (--quick skips the test / bench suites)
+# generator rev 86c79aeadabd0baa7445f75f8a0df4bb076a74cb
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
