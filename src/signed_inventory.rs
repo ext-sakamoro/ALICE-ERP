@@ -18,7 +18,7 @@
 //! - **金融商品取引法 §193-2** — 内部統制報告書 (J-SOX); 棚卸資産の
 //!   実在性は監査対象.
 //!
-//! Cryptographic primitives are provided by `alice-blockchain` (`Ed25519`).
+//! Cryptographic primitives are provided by `alice-sign` (`Ed25519`).
 
 #![allow(
     clippy::doc_markdown,
@@ -28,7 +28,7 @@
     clippy::cast_possible_truncation
 )]
 
-use alice_blockchain::signature::{KeyPair, PublicKey, Signature};
+use alice_sign::signature::{KeyPair, PublicKey, Signature};
 
 // ---------------------------------------------------------------------------
 // InventoryEventKind
