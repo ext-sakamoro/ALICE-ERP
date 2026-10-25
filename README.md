@@ -10,7 +10,7 @@ Enterprise Resource Planning module for the ALICE ecosystem. Pure Rust implement
 |------|-------|
 | **Crate** | `alice-erp` |
 | **Version** | 1.0.0 |
-| **License** | AGPL-3.0 |
+| **License** | LicenseRef-Proprietary |
 | **Edition** | 2021 |
 
 ## Features
